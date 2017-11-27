@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+
+<script src="jquery-3.2.1.min.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
+
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="main.css" />
+
+<title>Insert title here</title>
+
+</head>
+<body>
+
+	<!-- Button trigger modal -->
+	<button type="button" class="btn btn-primary show-loader">Exibir Loading</button>
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="modalLoading" tabindex="-1" 
+			role="dialog" 
+		 	aria-labelledby="modalLoading" aria-hidden="true" 
+		 	data-backdrop="static">
+
+		<div id="loader"></div>
+
+	</div>
+
+	<div id="myModal" class="modal fade" role="dialog" data-backdrop="static">
+		<div class="modal-dialog tamanhoTotal">
+			<div class="modal-content tamanhoTotal"></div>
+			<div id="loader" data-dismiss="modal"></div>
+		</div>
+	</div>
+
+
+</body>
+</html>
